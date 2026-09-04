@@ -1,0 +1,114 @@
+body {
+    background-color: grey;
+
+}
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+ul li {
+    float: left;
+}
+ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; 
+}
+ul li a:hover {
+    background-color: dimgrey;
+}
+/* ---------------------------------- */
+.title {
+    text-align: center;
+    border: 5px solid black;
+    margin-top: 10px;
+}
+/* ---------------------------------- */
+.topics {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+}
+.animals {
+    border: 2px dashed black; 
+    margin: 10px;
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+}
+.map {
+    border: 2px dashed black; 
+    margin: 10px;
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+}
+.history {
+    border: 2px dashed black; 
+    margin: 10px;
+    width: 250px;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+}
+
+.animals button {
+    background-color: green;
+    position: relative;
+    top: -10;
+    height: 25px;
+    width: 50px;
+    border-radius: 10px;
+}
+    .animals button:hover {
+        background-color: lightgreen;
+        transform: scale(1.10);
+    }
+    .animals button:active {
+        transform: scale(2.98);
+    }
+
+
+.map button {
+    background-color: green;
+    position: relative;
+    top: 9;
+    height: 25px;
+    width: 50px;
+    border-radius: 10px;
+}
+    .map button:hover {
+        background-color: lightgreen;
+        transform: scale(1.10);
+    }
+
+    .map button:active {
+        transform: scale(2.98);
+    }
+
+
+.history button {
+    background-color: green;
+    position: relative;
+    top: -9;
+    height: 25px;
+    width: 50px;
+    border-radius: 10px;
+}
+    .history button:hover{
+        background-color: lightgreen;
+        transform: scale(1.10);
+    }
+    .history button:active {
+        transform: scale(2.98);
+    }
+
+
